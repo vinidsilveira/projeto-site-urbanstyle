@@ -1,0 +1,154 @@
+:root {
+  --large-default-padding: 6.5em;
+  --medium-default-padding: 4em;
+}
+
+body {
+  font-family: "Roboto", tahoma, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+/* Container principal */
+
+#principal {
+  width: 64em;
+  margin: 1.25em auto;
+}
+
+h1,
+h2 {
+  font-family: "Viaoda Libre", cursive;
+  font-weight: normal;
+}
+
+/* Cabeçalho */
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logotipo {
+  margin: 0.5em 0 0.5em 8.4375em;
+  color: #e63946;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.header-nav ul {
+  margin: 12px;
+  padding: 0;
+}
+
+.header-nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 1em 0 0;
+  padding: 1em;
+}
+
+.header-nav a {
+  color: #111111;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.15em;
+  transition: color 0.3s;
+}
+
+.header-nav a:hover {
+  color: #e63946;
+}
+
+.topo-imagem {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topo-imagem img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Conteúdo principal */
+
+.portfolio {
+  padding: var(--medium-default-padding) var(--large-default-padding);
+  text-align: center;
+}
+
+.portfolio h1 {
+  font-size: 2.25em;
+  color: #111111;
+}
+
+.portfolio p {
+  font-size: 1em;
+  line-height: 2;
+  color: #555555;
+}
+
+/* Galeria */
+
+.gallery {
+  color: #555;
+  padding: 0 var(--large-default-padding) var(--medium-default-padding);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.gallery-card {
+  text-align: center;
+}
+
+.gallery-card:hover {
+  transform: scale(1.03);
+}
+
+.gallery-title {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 1em;
+  font-weight: bold;
+  color: #111111;
+}
+
+/* Seção sobre */
+
+.about {
+  background-color: #ffffff;
+  padding: var(--large-default-padding);
+  color: #111111;
+}
+
+.about h2 {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: normal;
+  color: #111111;
+}
+
+.about p {
+  line-height: 1.5;
+  width: 70%;
+  color: #555555;
+}
+
+/* Rodapé */
+.rodape {
+  padding: 1.8em;
+  font-size: 0.75em;
+  color: #999999;
+  letter-spacing: 0.3em;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+}
